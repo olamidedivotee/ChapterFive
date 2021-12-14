@@ -1,0 +1,21 @@
+package ChapterFive;
+
+import java.util.Scanner;
+
+public class Exercise9b {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a value: ");
+        int value = scanner.nextInt();
+        switch (value % 2) {
+            case 0:
+                System.out.println("Even integer");
+                break;
+
+            case 1:
+                System.out.println("Odd integer");
+                break;
+        }
+    }
+}
